@@ -32,3 +32,10 @@ tcpConn, ok := conn.(*net.TCPConn)
 		tcpConn.SetKeepAlivePeriod(time.Second)
 	}
 ```
+
+
+References:
+
+1. http://www.tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/#overview
+2. http://www.blogjava.net/yongboy/archive/2015/04/14/424413.html
+3. http://www.firefoxbug.com/index.php/archives/2805/
